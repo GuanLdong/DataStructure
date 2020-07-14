@@ -1,0 +1,70 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Boolean	LinkList/Status.h	/^typedef int Boolean;$/;"	t
+ClearList	LinkList/main.c	/^Status ClearList(LinkList *L){$/;"	f
+DeleteElem	LinkList/main.c	/^Status DeleteElem(LinkList L,int i,ElemType *e){$/;"	f
+Delete_SList	SqList/SList.c	/^Status Delete_SList(SList *L,int n,ElemType e){$/;"	f
+DestoryLink	LinkList/main.c	/^Status DestoryLink(LinkList *L){$/;"	f
+ERROR	LinkList/Status.h	18;"	d
+ERROR	LinkList/main.c	8;"	d	file:
+ERROR	SqList/SList.c	7;"	d	file:
+ElemType	LinkList/main.c	/^typedef int ElemType;$/;"	t	file:
+ElemType	SqList/SList.c	/^typedef int ElemType;$/;"	t	file:
+FALSE	LinkList/Status.h	16;"	d
+FALSE	LinkList/main.c	5;"	d	file:
+FALSE	SqList/SList.c	5;"	d	file:
+GREEN	LinkList/main.c	12;"	d	file:
+GetElem	LinkList/main.c	/^Status GetElem(LinkList L,int i,ElemType *e){$/;"	f
+GetElem	SqList/SList.c	/^ElemType GetElem(SList L,int i){$/;"	f
+HeadInsert	LinkList/main.c	/^Status HeadInsert(LinkList *L,ElemType e){$/;"	f
+InitLinkList	LinkList/main.c	/^Status InitLinkList(LinkList* L){$/;"	f
+Init_SList	SqList/SList.c	/^Status Init_SList(SList *L){$/;"	f
+Insert_SList	SqList/SList.c	/^Status Insert_SList(SList *L,int n,ElemType e){$/;"	f
+IsEmpty	LinkList/main.c	/^Status IsEmpty(LinkList L){$/;"	f
+LISTINCEREMENT	SqList/SList.c	11;"	d	file:
+LIST_INIT_SIZE	SqList/SList.c	10;"	d	file:
+LNode	LinkList/main.c	/^typedef struct LNode{$/;"	s	file:
+LNode	LinkList/main.c	/^}LNode;$/;"	t	typeref:struct:LNode	file:
+LinkList	LinkList/main.c	/^typedef LNode *LinkList;$/;"	t	file:
+LinkListInsert	LinkList/main.c	/^Status LinkListInsert(LinkList L,int l,ElemType e){$/;"	f
+LinkListLength	LinkList/main.c	/^Status LinkListLength(LinkList L){$/;"	f
+LocateElem	SqList/SList.c	/^Status LocateElem(SList L,ElemType e,Status(*compare)(ElemType,ElemType)){$/;"	f
+MAXSIZE	LinkList/main.c	3;"	d	file:
+MergeList	SqList/SList.c	/^Status MergeList(SList La,SList Lb,SList *Lc){$/;"	f
+NONE	LinkList/main.c	10;"	d	file:
+NULL	LinkList/Status.h	27;"	d
+NextElem	LinkList/main.c	/^Status NextElem(LinkList L,ElemType tar,ElemType *e){$/;"	f
+OK	LinkList/Status.h	17;"	d
+OK	LinkList/main.c	6;"	d	file:
+OK	SqList/SList.c	6;"	d	file:
+OVERFLOW	LinkList/Status.h	22;"	d
+OVERFLOW	LinkList/main.c	7;"	d	file:
+OVERFLOW	SqList/SList.c	9;"	d	file:
+PrintLinkList	LinkList/main.c	/^Status PrintLinkList(LinkList L){$/;"	f
+PriorElem	LinkList/main.c	/^Status PriorElem(LinkList L,ElemType tar,ElemType *e){$/;"	f
+RED	LinkList/main.c	9;"	d	file:
+SList	SqList/SList.c	/^typedef struct SList{$/;"	s	file:
+SList	SqList/SList.c	/^}SList;$/;"	t	typeref:struct:SList	file:
+STATUS_H	LinkList/Status.h	10;"	d
+Status	LinkList/Status.h	/^typedef int Status;$/;"	t
+Status	LinkList/main.c	/^typedef int Status;$/;"	t	file:
+Status	SqList/SList.c	/^typedef int Status;$/;"	t	file:
+TRUE	LinkList/Status.h	15;"	d
+TRUE	LinkList/main.c	4;"	d	file:
+TRUE	SqList/SList.c	4;"	d	file:
+TailInsert	LinkList/main.c	/^Status TailInsert(LinkList L,ElemType e){$/;"	f
+YELLOW	LinkList/main.c	11;"	d	file:
+compare	SqList/SList.c	/^Status compare(ElemType data,ElemType e){$/;"	f
+data	LinkList/main.c	/^    ElemType data;$/;"	m	struct:LNode	file:
+elem	SqList/SList.c	/^    ElemType *elem;$/;"	m	struct:SList	file:
+length	SqList/SList.c	/^    int length;$/;"	m	struct:SList	file:
+listsize	SqList/SList.c	/^    int listsize;$/;"	m	struct:SList	file:
+main	0_Practice/ReadFile.c	/^int main()$/;"	f
+main	0_Practice/test.c	/^int main(int argc, char *argv[])$/;"	f
+main	LinkList/main.c	/^Status main(){$/;"	f
+main	SqList/SList.c	/^int main(){$/;"	f
+next	LinkList/main.c	/^    struct LNode *next;$/;"	m	struct:LNode	typeref:struct:LNode::LNode	file:
