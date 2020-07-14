@@ -190,7 +190,6 @@ Status HeadInsert(LinkList *L,ElemType e){
 }
 
 Status main(){
-    system("cls");
 
     printf(GREEN"Init linklist..."NONE);
     LinkList L=NULL,Head=NULL,Tail=NULL;
@@ -249,5 +248,4 @@ Status main(){
     PrintLinkList(Tail);
     DestoryLink(&Head);
     DestoryLink(&Tail);
-    system("pause");
 }

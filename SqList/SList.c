@@ -1,5 +1,5 @@
-/*  */#include <stdio.h>
-
+#include <stdio.h>
+#include <stdlib.h>
 /* 状态码 */
 #define TRUE        1   // 真/是
 #define FALSE       0   // 假/否
